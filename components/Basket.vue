@@ -136,11 +136,10 @@ export default {
 
       //Здесь декларируем отправку заказа на сервер собственно.
       if(dirtyAll && noErrors) {
-        // this.POST_ORDER_TO_SERVER({forms: this.forms, order: this.GET_PRODUCTS_FROM_BASKET )
-        console.log('Заявка успешно отправлена ==')
         this.orderIsDone = true
         this.$v.$reset()
         this.DELETE_BASKET_TOTAL()
+        // this.POST_ORDER_TO_SERVER({forms: this.forms, order: this.GET_PRODUCTS_FROM_BASKET )
       }
     },
     onShutBasket() {
@@ -269,7 +268,7 @@ export default {
   }
 
   .order-done {
-    margin-top: 20%;
+    margin-top: rem(60);
 
     &__img {
       width: 100%;

@@ -77,22 +77,13 @@ export default {
     '@nuxtjs/style-resources'
   ],
 
-
-  /*
-  ** Axios module configuration
-  ** See https://axios.nuxtjs.org/options
-  */
-
   //for real API only
-
   // axios: {
   //   baseURL: 'http://front-test.idalite.com'
   // },
   // env: {
   //   BASE_URL: 'http://front-test.idalite.com'
   // },
-
-
 
 
   /*

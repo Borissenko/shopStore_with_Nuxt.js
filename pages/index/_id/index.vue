@@ -96,12 +96,7 @@ export default {
     },
     throwSelectedProductToStore({category, id}) {
       let basketedItem = new SelectedProduct(category, id)
-
       this.PUT_PRODUCT_TO_BASKET(basketedItem)
-
-
-
-
     }
   },
   directives: {

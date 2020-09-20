@@ -16,7 +16,6 @@
       </div>
 
       <nuxt-child class="product-list"/>
-
     </div>
   </div>
 </template>

@@ -16,17 +16,22 @@ export const getters = {
   },
   GET_PRODUCTS_FROM_BASKET: state => state.clientBasket,
   GET_PRODUCTS_FROM_BASKET_DEPLOYED: (state, getters) => {
-    let productArticulsEtBasket = state.clientBasket
-    let broadItemsEtBasket = []
+      let productArticulsEtBasket = state.clientBasket
+      let broadItemsEtBasket = []
 
-    for(let {category, id} of productArticulsEtBasket) {
-      let broadItemForBasket = getters.GET_PRODUCTS({
-        category,
-        sortingType: 'price'
-      }).slice().find(item => item.id === id)
-      broadItemsEtBasket.push(broadItemForBasket)
-    }
-    return broadItemsEtBasket
+      for(let {category, id} of productArticulsEtBasket) {
+        let products = getters.GET_PRODUCTS({
+          category,
+          sortingType: 'price'
+        }).slice()
+
+        if(products.length > 0) {
+          let broadItemForBasket = products.find(item => item.id === id)
+          broadItemsEtBasket.push(broadItemForBasket)
+        }
+      }
+
+      return broadItemsEtBasket
   }
 }
 
@@ -49,17 +54,20 @@ export const mutations = {
 }
 
 export const actions = {
-  async nuxtServerInit({commit}, {$axios}) {
-    let productCategory = await $axios.$get('/API_Data/productCategory/productCategory.json')
-    let products = await $axios.$get('/API_Data/products/products_1.json')
-
+  async nuxtServerInit({getters, dispatch, commit}, {$axios}) {
+    let productCategory = []
+    try {
+      productCategory = await $axios.$get('/API_Data/productCategory/productCategory.json')
+    } catch(e) {
+      console.log('FETCH_PRODUCTS error = ', e)
+    }
     commit('SET_PRODUCT_CATEGORY', productCategory)
-    commit('SET_PRODUCTS', {category: '1', products})
+    dispatch('FETCH_PRODUCTS', 1)
   },
   async FETCH_PRODUCTS({commit}, categoryId) {
     await this.$axios.$get(`/API_Data/products/products_${categoryId}.json`)
       .then(data => commit('SET_PRODUCTS', {category: categoryId, products: data}))
-      .catch(console.log)
+      .catch(e => console.log('FETCH_PRODUCTS error = ', e))
   },
   PUT_PRODUCT_TO_BASKET({getters, commit}, product) {
     commit('PUT_PRODUCT_TO_BASKET', product)

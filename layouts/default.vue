@@ -27,7 +27,7 @@
 <script>
 import vClickOutside from 'v-click-outside'
 import Basket from '@/components/Basket'
-import {mapMutations, mapGetters} from 'vuex'
+import {mapActions, mapMutations, mapGetters} from 'vuex'
 import {SelectedProduct} from 'assets/utils/constructors'
 
 export default {
@@ -43,6 +43,9 @@ export default {
     ])
   },
   methods: {
+    ...mapActions([
+      'FETCH_PRODUCTS'
+    ]),
     ...mapMutations([
       'REBUILD_THE_BASKET_FROM_LOCALSTORAGE'
     ]),
@@ -56,10 +59,11 @@ export default {
   directives: {
     clickOutside: vClickOutside.directive
   },
-  created() {
-    if(process.env.VUE_ENV === 'client' && (this.GET_PRODUCTS_FROM_BASKET.length === 0)) {
+  async created() {
+    if(process.env.VUE_ENV === 'client' && (this.GET_PRODUCTS_FROM_BASKET.length === 0)) {  // т.е. при перезагрузке сайта
       let LStorageBasketData = localStorage.getItem('basket')
 
+      //1. восстанавливаем данные корзины
       if(LStorageBasketData != null) {
         let separatedTheLStorageBasketData = LStorageBasketData.split('=')
         let reanimatedBasket = []
@@ -71,6 +75,21 @@ export default {
         }
 
         this.REBUILD_THE_BASKET_FROM_LOCALSTORAGE(reanimatedBasket)
+      }
+
+      //2. дозагружаем востребованнные корзиной группы продуктов
+      let basketedProduct = this.GET_PRODUCTS_FROM_BASKET
+
+      if(basketedProduct.length > 0) {
+        let basketedProductCategory = []
+        for(let item of basketedProduct) {
+          basketedProductCategory.push(item.category)
+        }
+        basketedProductCategory = [...new Set(basketedProductCategory)]   //устраняем повторы
+
+        for await (let category of basketedProductCategory) {     //загружаем продукты тех категорий, которые были востребованы до перезагрузки сайта.
+          this.FETCH_PRODUCTS(category)
+        }
       }
     }
   }

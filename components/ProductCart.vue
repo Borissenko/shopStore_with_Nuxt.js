@@ -54,8 +54,8 @@ export default {
       required: true
     }
   },
-  // computed: {   //for real API only
-  //   img() {
+  // computed: {
+  //   img() {     //for real API only
   //     return process.env.BASE_URL + this.productImg
   //   }
   // },
