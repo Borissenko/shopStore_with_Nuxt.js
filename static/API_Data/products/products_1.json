@@ -1,0 +1,98 @@
+[
+  {
+    "id": 190,
+    "name": "РЮКЗАК OUTDOOR",
+    "price": 242000,
+    "rating": 2,
+    "photo": "/API_Data/imgs/backpack-1.jpg",
+    "category": 1
+  },
+  {
+    "id": 184,
+    "name": "РЮКЗАК CHRISTOPHER PM",
+    "price": 203000,
+    "rating": 4,
+    "photo": "/API_Data/imgs/backpack-2.jpg",
+    "category": 1
+  },
+  {
+    "id": 233,
+    "name": "РЮКЗАК CAMPUS",
+    "price": 218000,
+    "rating": 2,
+    "photo": "/API_Data/imgs/backpack-1.jpg",
+    "category": 1
+  },
+  {
+    "id": 211,
+    "name": "РЮКЗАК DISCOVERY PM",
+    "price": 194000,
+    "rating": 0,
+    "photo": "/API_Data/imgs/backpack-2.jpg",
+    "category": 1
+  },
+  {
+    "id": 230,
+    "name": "РЮКЗАК CAMPUS",
+    "price": 218000,
+    "rating": 4,
+    "photo": "/API_Data/imgs/backpack-1.jpg",
+    "category": 1
+  },
+  {
+    "id": 214,
+    "name": "РЮКЗАК DISCOVERY PM",
+    "price": 154000,
+    "rating": 1,
+    "photo": "/API_Data/imgs/backpack-2.jpg",
+    "category": 1
+  },
+  {
+    "id": 1910,
+    "name": "РЮКЗАК OUTDOOR",
+    "price": 242000,
+    "rating": 2,
+    "photo": "/API_Data/imgs/backpack-1.jpg",
+    "category": 1
+  },
+  {
+    "id": 1814,
+    "name": "РЮКЗАК CHRISTOPHER PM",
+    "price": 203000,
+    "rating": 4,
+    "photo": "/API_Data/imgs/backpack-2.jpg",
+    "category": 1
+  },
+  {
+    "id": 2313,
+    "name": "РЮКЗАК CAMPUS",
+    "price": 218000,
+    "rating": 0,
+    "photo": "/API_Data/imgs/backpack-1.jpg",
+    "category": 1
+  },
+  {
+    "id": 2111,
+    "name": "РЮКЗАК DISCOVERY PM",
+    "price": 197000,
+    "rating": 0,
+    "photo": "/API_Data/imgs/backpack-2.jpg",
+    "category": 1
+  },
+  {
+    "id": 2130,
+    "name": "РЮКЗАК CAMPUS",
+    "price": 228000,
+    "rating": 4,
+    "photo": "/API_Data/imgs/backpack-1.jpg",
+    "category": 1
+  },
+  {
+    "id": 2114,
+    "name": "РЮКЗАК DISCOVERY PM",
+    "price": 144000,
+    "rating": 1,
+    "photo": "/API_Data/imgs/backpack-1.jpg",
+    "category": 1
+  }
+]

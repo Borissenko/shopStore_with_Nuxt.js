@@ -1,0 +1,122 @@
+[
+  {
+    "id": 232,
+    "name": "ПОРТФЕЛЬ PRESIDENT CLASSEUR",
+    "price": 815000,
+    "rating": 1,
+    "photo": "/API_Data/imgs/bagMessenger-1.jpg",
+    "category": 3
+  },
+  {
+    "id": 190,
+    "name": "РЮКЗАК OUTDOOR",
+    "price": 242000,
+    "rating": 2,
+    "photo": "/API_Data/imgs/bagMessenger-2.jpg",
+    "category": 1
+  },
+  {
+    "id": 184,
+    "name": "РЮКЗАК CHRISTOPHER PM",
+    "price": 203000,
+    "rating": 2,
+    "photo": "/API_Data/imgs/bagMessenger-1.jpg",
+    "category": 1
+  },
+  {
+    "id": 219,
+    "name": "СУМКА DISCOVERY PPM",
+    "price": 143000,
+    "rating": 2,
+    "photo": "/API_Data/imgs/bagMessenger-2.jpg",
+    "category": 2
+  },
+  {
+    "id": 225,
+    "name": "DISTRICT PM",
+    "price": 97500,
+    "rating": 3,
+    "photo": "/API_Data/imgs/bagMessenger-2.jpg",
+    "category": 2
+  },
+  {
+    "id": 233,
+    "name": "РЮКЗАК CAMPUS",
+    "price": 218000,
+    "rating": 0,
+    "photo": "/API_Data/imgs/bagMessenger-1.jpg",
+    "category": 1
+  },
+  {
+    "id": 209,
+    "name": "ПОРТФЕЛЬ ARMAND MM",
+    "price": 315000,
+    "rating": 5,
+    "photo": "/API_Data/imgs/bagMessenger-2.jpg",
+    "category": 3
+  },
+  {
+    "id": 188,
+    "name": "СУМКА OUTDOOR",
+    "price": 132000,
+    "rating": 4,
+    "photo": "/API_Data/imgs/bagMessenger-1.jpg",
+    "category": 2
+  },
+  {
+    "id": 1920,
+    "name": "РЮКЗАК OUTDOOR",
+    "price": 242000,
+    "rating": 2,
+    "photo": "/API_Data/imgs/bagMessenger-1.jpg",
+    "category": 1
+  },
+  {
+    "id": 1824,
+    "name": "РЮКЗАК CHRISTOPHER PM",
+    "price": 203000,
+    "rating": 4,
+    "photo": "/API_Data/imgs/bagMessenger-2.jpg",
+    "category": 1
+  },
+  {
+    "id": 2129,
+    "name": "СУМКА DISCOVERY PPM",
+    "price": 143000,
+    "rating": 2,
+    "photo": "/API_Data/imgs/bagMessenger-1.jpg",
+    "category": 2
+  },
+  {
+    "id": 2225,
+    "name": "DISTRICT PM",
+    "price": 476300,
+    "rating": 3,
+    "photo": "/API_Data/imgs/bagMessenger-2.jpg",
+    "category": 2
+  },
+  {
+    "id": 2233,
+    "name": "РЮКЗАК CAMPUS",
+    "price": 218000,
+    "rating": 0,
+    "photo": "/API_Data/imgs/bagMessenger-2.jpg",
+    "category": 1
+  },
+  {
+    "id": 2029,
+    "name": "ПОРТФЕЛЬ ARMAND MM",
+    "price": 315000,
+    "rating": 5,
+    "photo": "/API_Data/imgs/bagMessenger-1.jpg",
+    "category": 3
+  },
+  {
+    "id": 1288,
+    "name": "СУМКА OUTDOOR",
+    "price": 132000,
+    "rating": 4,
+    "photo": "/API_Data/imgs/bagMessenger-2.jpg",
+    "category": 2
+  }
+]

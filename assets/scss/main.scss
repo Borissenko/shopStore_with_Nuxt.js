@@ -1,0 +1,85 @@
+@import 'constants';
+@import 'utils';
+
+body {
+  margin: 0;
+
+  font-family: PT Sans, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.font_24-bold {
+  font-weight: bold;
+  font-size: rem(24);
+  line-height: rem(31);
+}
+
+.font_22 {
+  font-size: rem(22);
+  line-height: rem(28);
+}
+
+.font_22-bold {
+  font-weight: bold;
+  font-size: rem(22);
+  line-height: rem(28);
+}
+
+.font_18 {
+  font-size: rem(18);
+  line-height: rem(23);
+
+}
+
+.font_16 {
+  font-size: rem(16);
+  line-height: rem(21);
+}
+
+.font_16-bold {
+  font-weight: bold;
+  font-size: rem(16);
+  line-height: rem(21);
+}
+
+.font_14 {
+  font-size: rem(14);
+  line-height: rem(18);
+}
+
+.font_8-bold {
+  font-weight: bold;
+  font-size: rem(10);
+  line-height: rem(13);
+}
+
+
+h1 {
+  margin: 0;
+  font-weight: bold;
+  font-size: rem(32);
+  line-height: rem(41);
+  color: $black;
+}
+
+.card-bs {
+  box-shadow: 0 rem(4) rem(16) rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.panel-bs {
+  box-shadow: rem(-4) 0 rem(16) rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .2s;
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0;
+}
+
+

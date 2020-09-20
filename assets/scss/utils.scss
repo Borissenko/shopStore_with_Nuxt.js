@@ -1,0 +1,9 @@
+@function rem($n) {
+  @return #{($n / $generalFontSize_number)}rem;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

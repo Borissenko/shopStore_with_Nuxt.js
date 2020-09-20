@@ -1,0 +1,106 @@
+[
+  {
+    "id": 232,
+    "name": "ПОРТФЕЛЬ PRESIDENT CLASSEUR",
+    "price": 815000,
+    "rating": 1,
+    "photo": "/API_Data/imgs/businessBag-1.jpg",
+    "category": 3
+  },
+  {
+    "id": 209,
+    "name": "ПОРТФЕЛЬ ARMAND MM",
+    "price": 315000,
+    "rating": 5,
+    "photo": "/API_Data/imgs/businessBag-1.jpg",
+    "category": 3
+  },
+  {
+    "id": 186,
+    "name": "PORTE-DOCUMENTS VOYAGE PM",
+    "price": 201000,
+    "rating": 3,
+    "photo": "/API_Data/imgs/businessBag-2.jpg",
+    "category": 3
+  },
+  {
+    "id": 212,
+    "name": "DANDY MM",
+    "price": 240000,
+    "rating": 2,
+    "photo": "/API_Data/imgs/businessBag-1.jpg",
+    "category": 3
+  },
+  {
+    "id": 227,
+    "name": "СУМКА STEAMER PM",
+    "price": 275000,
+    "rating": 3,
+    "photo": "/API_Data/imgs/businessBag-2.jpg",
+    "category": 3
+  },
+  {
+    "id": 198,
+    "name": "ПОРТФЕЛЬ EXPLORER",
+    "price": 162000,
+    "rating": 4,
+    "photo": "/API_Data/imgs/businessBag-1.jpg",
+    "category": 3
+  },
+  {
+    "id": 183,
+    "name": "СУМКА CABAS BUSINESS",
+    "price": 315000,
+    "rating": 2,
+    "photo": "/API_Data/imgs/businessBag-2.jpg",
+    "category": 3
+  },
+  {
+    "id": 2039,
+    "name": "ПОРТФЕЛЬ ARMAND MM",
+    "price": 315000,
+    "rating": 5,
+    "photo": "/API_Data/imgs/businessBag-1.jpg",
+    "category": 3
+  },
+  {
+    "id": 1836,
+    "name": "PORTE-DOCUMENTS VOYAGE PM",
+    "price": 101000,
+    "rating": 3,
+    "photo": "/API_Data/imgs/businessBag-2.jpg",
+    "category": 3
+  },
+  {
+    "id": 2132,
+    "name": "DANDY MM",
+    "price": 240000,
+    "rating": 2,
+    "photo": "/API_Data/imgs/businessBag-2.jpg",
+    "category": 3
+  },
+  {
+    "id": 2327,
+    "name": "СУМКА STEAMER PM",
+    "price": 275000,
+    "rating": 3,
+    "photo": "/API_Data/imgs/businessBag-1.jpg",
+    "category": 3
+  },
+  {
+    "id": 1938,
+    "name": "ПОРТФЕЛЬ EXPLORER",
+    "price": 162000,
+    "rating": 4,
+    "photo": "/API_Data/imgs/businessBag-2.jpg",
+    "category": 3
+  },
+  {
+    "id": 1833,
+    "name": "СУМКА CABAS BUSINESS",
+    "price": 315000,
+    "rating": 2,
+    "photo": "/API_Data/imgs/businessBag-1.jpg",
+    "category": 3
+  }
+]
